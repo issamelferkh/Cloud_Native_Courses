@@ -9,4 +9,7 @@
 
 # 02
 FROM alpine:latest
+CMD ["mkdir /test"]
 CMD ["/bin/date"]
+ENTRYPOINT ["/bin/date"]
+# /bin/sh -c /bin/date
