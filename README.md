@@ -2,11 +2,11 @@
 
 ## Containers - Docker
 
-### Session 01: Containers 101: Done
+### [x] Session 01: Containers 101
 - https://kube.academy/courses/containers-101
 - https://riptutorial.com/Download/docker.pdf
 
-### Session 02: Prepa: In Progress
+### [x] Session 02: Containers 101 - Docker Workshop
 - WorkShop -> Mini Peoject (Deploy MERN App)
   - Container Security Explained
     - https://www.youtube.com/watch?v=b_euX_M82uI&ab_channel=IBMTechnology
@@ -19,9 +19,23 @@
   - Learn Cloud-Native Week 2: Intro to Containers
   - Cloud Native Container Security
 
-## Container Orchestration - Kubernetes
-### Session 03: Kubernetes 101: In Progress
+## Container Orchestration - Kubernetes 101
+### [ ] Session 03: Container Orchestration - Kubernetes 101
 - https://kube.academy/courses/kubernetes-101
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Build Automation & CI/CD Pipeline - Jenkins
 ## Infrastructure Provisioning & Configuration Management (IaC)

@@ -28,5 +28,3 @@ to give `sample-app` image new name
 ```docker run -dp 3000:3000 -v data-db:/etc/todos sample-app```
 3. Inspect Volume
 ```docker volume inspect todo-db```
-
-
