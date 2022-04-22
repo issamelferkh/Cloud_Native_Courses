@@ -23,8 +23,13 @@
 ### [ ] Session 03: Container Orchestration - Kubernetes 101
 - https://kube.academy/courses/kubernetes-101
 
+- Kubernetes Crash Course for Absolute Beginners
+https://www.youtube.com/watch?v=s_o8dwzRlu4&ab_channel=TechWorldwithNana
 
 
+
+- Kubernetes architecture explained
+https://www.youtube.com/watch?v=HJ6F05Pm5mQ&list=PLpbcUe4chE79sB7Jg7B4z3HytqUUEwcNE&ab_channel=HoussemDellai
 
 
 
@@ -44,3 +49,6 @@
 ## Cloud Native
 - Cloud Native Paths: https://kube.academy/paths
 
+
+## Helps
+sudo docker stop $(docker ps -qa); docker rm $(docker ps -qa); docker rmi -f $(docker images -qa); docker volume rm $(docker volume ls -q); docker network rm $(docker network ls -q) 2>/dev/null

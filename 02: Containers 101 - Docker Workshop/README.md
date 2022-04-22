@@ -1,30 +1,61 @@
 # Containers 101 - Docker
 
-- Ressoucre: https://docs.docker.com/get-started/
-## Sample application
-Deploy sample node app using our 1st Dockerfile
-1. Create Dockerfile
-2. Build
-``` docker build -t sample-app. ```
-3. Run
-``` docker run -dp 3000:3000 sample-app ```
+## Get Started
+### Sample App
+- Clone App srcs
+- Create Dockerfile
+- Build
+```sudo docker build -t sample-app:1.0 .```
+- Run
+```sudo docker run -dp 3000:3000 sample-app:1.0```
 
-## Update App
-1. Update srcs
-2. Stop and Remove Container
-3. Build
-4. Run
+### Update the App
+- Update src/static.js.app.js
+```
+-                <p className="text-center">No items yet! Add one above!</p>
++                <p className="text-center">You have no todo items yet! Add one above!</p>
+``` 
 
-## Push/Share App
-1. Create repo in Docker Hub
-2. Tag image
-to give `sample-app` image new name
-3. Push
+- Build
+```sudo docker build -t sample-app:1.0 .```
 
-## Persist Data
-1. Create Volume
-```docker volume create todo-db```
-2. Run the container adding volume
-```docker run -dp 3000:3000 -v data-db:/etc/todos sample-app```
-3. Inspect Volume
-```docker volume inspect todo-db```
+- Run
+```sudo docker run -dp 3000:3000 sample-app:1.0```
+
+- Issue: `Bind for 0.0.0.0:3000 failed: port is already allocated.`
+
+- Solution
+  - Stop the container -> remove it -> run
+
+### Push/Share the App
+- Create repo -> Docker Hub
+- Tag 
+```sudo docker tag sample-app:1.0 issamelferkh/sample-app:1.0```
+- Push
+```sudo docker push issamelferkh/sample-app:1.0```
+
+
+### Persist DB
+- Keep todos data using Volumes (connect specific filesystem paths of the container to the host machine)
+- Create volume
+```sudo docker volume create todo-db```
+
+- Stop, remove container and add volume
+```sudo docker run -d -p 3000:3000 -v todo-db:/etc/todos issamelferkh/sample-app:1.0```
+
+- Inspect Volume
+```sudo docker volume inspect todo-db```
+
+
+### 6: Use bind mounts
+### 7: Multi-container apps
+### 8: Use Docker Compose
+### 9: Image-building best practices
+### 10: What next?
+
+
+
+## Help
+- Resource: https://docs.docker.com/
+- Delete all
+sudo docker stop $(docker ps -qa); docker rm $(docker ps -qa); docker rmi -f $(docker images -qa); docker volume rm $(docker volume ls -q); docker network rm $(docker network ls -q) 2>/dev/null
