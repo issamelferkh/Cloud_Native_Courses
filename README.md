@@ -25,9 +25,13 @@
 - Kubernetes architecture explained: https://www.youtube.com/watch?v=HJ6F05Pm5mQ&list=PLpbcUe4chE79sB7Jg7B4z3HytqUUEwcNE&ab_channel=HoussemDellai
 - Kubernetes Core Concepts: https://kube.academy/paths/kubernetes-core-concepts
 
-## [!] Build Automation & CI/CD Pipeline - Jenkins
+## [!] CI/CD
+
+- Goals: Build Automation & CI/CD Pipeline - Jenkins
 - [!] GitLab CI/CD
   - Mettez en place l'intégration et la livraison continues avec la démarche DevOps: https://openclassrooms.com/fr/courses/2035736-mettez-en-place-lintegration-et-la-livraison-continues-avec-la-demarche-devops
+
+
 - Jenkins
   - Jenkines Pipeline Tutorials: https://www.youtube.com/playlist?list=PLy7NrYWoggjw_LIiDK1LXdNN82uYuuuiC
 - GitHub Actions
@@ -46,7 +50,10 @@
 - [!] Ansible: https://www.youtube.com/watch?v=1id6ERvfozo&ab_channel=TechWorldwithNana
 - [!] Terraform: https://www.youtube.com/watch?v=l5k1ai_GBDE&t=76s&ab_channel=TechWorldwithNana
 
-## [!] AWS
+## [!] Clouding
+- [!] Cloud.pdf 
+
+### [!] AWS
 - [!] AWS Certified Cloud Practitioner
   - AWS Cloud Practitioner Essentials: https://explore.skillbuilder.aws/
   - AWS Power Hour: Cloud Practitioner: https://pages.awscloud.com/global-traincert-twitch-power-hour-cloud-practitioner.html
@@ -55,9 +62,9 @@
 - https://www.youtube.com/channel/UCCYR9GpcE3skVnyMU8Wx1kQ
 - https://www.youtube.com/channel/UCwpIueN8B-42Z8vfxVt0yEQ
 
-## Azure
+### Azure
 
-## Cloud Native
+### Cloud Native
 - https://www.youtube.com/watch?v=k-NXaFZ5lCU&ab_channel=Cookieconnect%C3%A9
 - Understanding Cloud Native: https://kube.academy/paths/understanding-cloud-native
 - Introduction to Building Cloud Native Applications: https://kube.academy/paths/introduction-to-building-cloud-native-applications
@@ -68,6 +75,14 @@
 ## Scripting Language
 - [!] Golang Tutorial for Beginners | Full Go Course: https://www.youtube.com/watch?v=yyUHQIec83I&t=11154s&ab_channel=TechWorldwithNana
 
+## [Version Control - Git](https://speckled-particle-440.notion.site/Version-Control-Git-16926313013347598e4975e803743044)
+- [Pro Git book](https://speckled-particle-440.notion.site/Pro-Git-book-72e8ef1b3a8d42e286d7ceeaece9d437)
+
 ## Helps
 sudo docker stop $(docker ps -qa); docker rm $(docker ps -qa); docker rmi -f $(docker images -qa); docker volume rm $(docker volume ls -q); docker network rm $(docker network ls -q) 2>/dev/null
 
+
+
+
+
+Version Conrol  - Git
