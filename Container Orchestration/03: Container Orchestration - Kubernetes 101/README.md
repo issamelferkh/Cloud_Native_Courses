@@ -47,3 +47,4 @@
 ## Resources
 Resources: https://kube.academy/courses/kubernetes-101
 Resources: https://www.youtube.com/watch?v=s_o8dwzRlu4
+
