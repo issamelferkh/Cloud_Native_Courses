@@ -79,3 +79,10 @@
     - https://www.youtube.com/watch?v=k-NXaFZ5lCU&ab_channel=Cookieconnect%C3%A9
     - Understanding Cloud Native: https://kube.academy/paths/understanding-cloud-native
     - Introduction to Building Cloud Native Applications: https://kube.academy/paths/introduction-to-building-cloud-native-applications
+
+
+## DevOps Projects ideas
+- https://github.com/MichaelCade/90DaysOfDevOps/blob/main/Days/day61.md
+- https://github.com/Abhinav-26/DevOps-Projects
+- https://github.com/yankils/Simple-DevOps-Project
+- https://github.com/AdminTurnedDevOps/DevOps-The-Hard-Way-AWS
